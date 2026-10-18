@@ -3,7 +3,20 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
+
+### Secrets & local data (never commit) ###
+store.json
+store.json.*
+*.store.json
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*.log
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
